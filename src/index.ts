@@ -63,7 +63,7 @@ async function setupViewer(){
     // This must be called once after all plugins are added.
     viewer.renderer.refreshPipeline()
 
-    await manager.addFromPath("./assets/em10_clip.glb")
+    await manager.addFromPath("./assets/em10.glb")
 
     // Load an environment map if not set in the glb file
      await viewer.scene.setEnvironment(
