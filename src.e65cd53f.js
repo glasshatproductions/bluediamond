@@ -72018,7 +72018,7 @@ function setupViewer() {
           // await viewer.addPlugin(GammaCorrectionPlugin)
           // await viewer.addPlugin(SSRPlugin)
           // await viewer.addPlugin(SSAOPlugin)
-          // await viewer.addPlugin(DiamondPlugin)
+         // await viewer.addPlugin(DiamondPlugin)
           // await viewer.addPlugin(FrameFadePlugin)
           // await viewer.addPlugin(GLTFAnimationPlugin)
           // await viewer.addPlugin(GroundPlugin)
@@ -72034,12 +72034,12 @@ function setupViewer() {
           // Add plugins individually.
           // await viewer.addPlugin(GBufferPlugin)
           // await viewer.addPlugin(new ProgressivePlugin(32))
-          // await viewer.addPlugin(new TonemapPlugin(!viewer.useRgbm))
+           // await viewer.addPlugin(new TonemapPlugin(!viewer.useRgbm))
           // await viewer.addPlugin(GammaCorrectionPlugin)
           // await viewer.addPlugin(SSRPlugin)
           // await viewer.addPlugin(SSAOPlugin)
           // await viewer.addPlugin(DiamondPlugin)
-          // await viewer.addPlugin(FrameFadePlugin)
+         // await viewer.addPlugin(FrameFadePlugin)
           // await viewer.addPlugin(GLTFAnimationPlugin)
           // await viewer.addPlugin(GroundPlugin)
           // await viewer.addPlugin(BloomPlugin)
@@ -72062,7 +72062,7 @@ function setupViewer() {
           // await viewer.addPlugin(FrameFadePlugin)
           // await viewer.addPlugin(GLTFAnimationPlugin)
           // await viewer.addPlugin(GroundPlugin)
-          // await viewer.addPlugin(BloomPlugin)
+         // await viewer.addPlugin(BloomPlugin)
           // await viewer.addPlugin(TemporalAAPlugin)
           // await viewer.addPlugin(AnisotropyPlugin)
           // or use this to add all main ones at once.
@@ -72079,11 +72079,11 @@ function setupViewer() {
           viewer.renderer.refreshPipeline();
           return [4 /*yield*/, manager.addFromPath("./assets/emeraldbag.glb")
           // Load an environment map if not set in the glb file
-          // await viewer.scene.setEnvironment(
-          //     await manager.importer!.importSinglePath<ITexture>(
-          //         "./assets/environment.hdr"
-          //     )
-          // );
+         //  await viewer.scene.setEnvironment(
+          //   await manager.importer!.importSinglePath<ITexture>(
+          //      "./assets/environment.hdr"
+       //      )
+     //   );
           // Add some UI for tweak and testing.
           ];
 
