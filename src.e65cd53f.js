@@ -68019,7 +68019,7 @@ gl_FragColor = packDepthToRGBA(mix(last, shadow, opacity));
       }, this.alert = async e => alert(e), this.confirm = async e => confirm(e), this.prompt = async (e, t, r = !0) => prompt(e, t), this._expand = e, this._limitedOptions = r;
       const s = this._createUiContainer();
       i.appendChild(s), this._pane = new xT.Pane({
-        title: "Configuration",
+        title: "Settings",
         container: s
       }), this._pane.expanded = this._expand, n && (this.addEventListener("postFrame", () => this.refreshQueue("postFrame")), setTimeout(() => {
         this.dispatchEvent({
