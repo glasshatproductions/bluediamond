@@ -72130,7 +72130,7 @@ function setupViewer() {
           _c.sent();
           // This must be called once after all plugins are added.
           viewer.renderer.refreshPipeline();
-          return [4 /*yield*/, manager.addFromPath("./assets/em10_clip.glb")
+          return [4 /*yield*/, manager.addFromPath("./assets/em10.glb")
           // Load an environment map if not set in the glb file
           ];
 
