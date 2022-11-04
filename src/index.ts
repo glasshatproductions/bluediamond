@@ -63,14 +63,14 @@ async function setupViewer(){
     // This must be called once after all plugins are added.
     viewer.renderer.refreshPipeline()
 
-    await manager.addFromPath("./assets/blueoval.glb")
+    await manager.addFromPath("./assets/emeraldbag.glb")
 
     // Load an environment map if not set in the glb file
-    // await viewer.scene.setEnvironment(
-    //     await manager.importer!.importSinglePath<ITexture>(
-    //         "./assets/environment.hdr"
-    //     )
-    // );
+     await viewer.scene.setEnvironment(
+        await manager.importer!.importSinglePath<ITexture>(
+            "./assets/environment.hdr"
+        )
+     );
 
     // Add some UI for tweak and testing.
     const uiPlugin = await viewer.addPlugin(TweakpaneUiPlugin)
