@@ -21,8 +21,8 @@ import {
 
     IViewerPlugin,
 
-    // Color, // Import THREE.js internals
-    // Texture, // Import THREE.js internals
+ //  Color, // Import THREE.js internals
+ //  Texture, // Import THREE.js internals
 } from "webgi";
 import "./styles.css";
 
